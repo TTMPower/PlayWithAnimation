@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-bd-JRp">
-                                <rect key="frame" x="292" y="784" width="103" height="30"/>
+                                <rect key="frame" x="263" y="784" width="103" height="30"/>
                                 <state key="normal" title="Next animation"/>
                                 <connections>
                                     <action selector="nextAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfA-iy-CaU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwJ-x8-RBY">
-                                <rect key="frame" x="15" y="784" width="102" height="30"/>
+                                <rect key="frame" x="45" y="784" width="102" height="30"/>
                                 <state key="normal" title="Prev animation"/>
                                 <connections>
                                     <action selector="prevAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I08-VU-zqW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap next for anim ----|&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0N-SL-rst">
-                                <rect key="frame" x="20" y="750" width="374" height="21"/>
+                                <rect key="frame" x="10" y="746" width="394" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -45,15 +45,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d0a-bd-JRp" secondAttribute="bottom" constant="48" id="5bZ-Zo-8YO"/>
-                            <constraint firstItem="RwJ-x8-RBY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Xcm-qN-BWI"/>
-                            <constraint firstItem="i0N-SL-rst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Z2v-cA-4RV"/>
-                            <constraint firstItem="i0N-SL-rst" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jKh-LZ-zAa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RwJ-x8-RBY" secondAttribute="bottom" constant="48" id="lGB-DQ-o9T"/>
-                            <constraint firstItem="d0a-bd-JRp" firstAttribute="top" secondItem="i0N-SL-rst" secondAttribute="bottom" constant="13" id="lXl-GK-HQf"/>
-                            <constraint firstItem="i0N-SL-rst" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="706" id="qgn-UJ-81c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i0N-SL-rst" secondAttribute="trailing" constant="20" id="vOz-zQ-sAx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d0a-bd-JRp" secondAttribute="trailing" constant="19" id="yDY-AA-Kn5"/>
+                            <constraint firstItem="RwJ-x8-RBY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="8YS-GE-LY5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RwJ-x8-RBY" secondAttribute="bottom" constant="48" id="9Xf-z5-8s9"/>
+                            <constraint firstItem="i0N-SL-rst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="DFO-6C-jpO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d0a-bd-JRp" secondAttribute="trailing" constant="48" id="WnF-pb-uQS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d0a-bd-JRp" secondAttribute="bottom" constant="48" id="a73-VX-aX3"/>
+                            <constraint firstItem="d0a-bd-JRp" firstAttribute="top" secondItem="i0N-SL-rst" secondAttribute="bottom" constant="17" id="gpf-0f-WMK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i0N-SL-rst" secondAttribute="trailing" constant="10" id="h2P-vD-fNQ"/>
                         </constraints>
                     </view>
                     <connections>
